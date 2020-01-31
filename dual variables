@@ -1,0 +1,3 @@
+hello, I want to get my dual variables for my constraint, I searched a lot but could not get any function without error
+my constraint is @constraint(model, con1[i = 1:I], sum( x[i,k] * y[k] for k=1:K) == b[i])
+I used getdual(con1) and I faced an error. please help me.
